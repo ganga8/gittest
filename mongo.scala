@@ -21,6 +21,6 @@ object mongo extends App{
 	//val r = rdd.groupBy(rdd._2.get("date"))
 	val documents = key_val_rdd.collect()
 	for(i <- documents){
-		println(i)
+		println(i.get("user_id"))
 	}
 }
