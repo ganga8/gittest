@@ -22,6 +22,5 @@ object mongo extends App{
 	val documents = key_val_rdd.collect()
 	for(i <- documents){
 		println(i.get("user_id"))
-		println("ganga")
 	}
 }
