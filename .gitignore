@@ -1,2 +1,5 @@
+
+
+# To ignore .class and .pyc files
 *.class
 *.pyc
