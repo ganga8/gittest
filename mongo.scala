@@ -21,9 +21,7 @@ object mongo extends App{
 	//val r = rdd.groupBy(rdd._2.get("date"))
 	val documents = key_val_rdd.collect()
 	for(i <- documents){
+		println("removed print statements")
 		println(i.get("user_id"))
-		println("ganga")
-		println("ganga")
-		println("btech cse")
 	}
 }
