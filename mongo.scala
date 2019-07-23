@@ -23,5 +23,7 @@ object mongo extends App{
 	for(i <- documents){
 		println(i.get("user_id"))
 		println("ganga")
+		println("ganga")
+		println("btech cse")
 	}
 }
