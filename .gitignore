@@ -1,6 +1,2 @@
-
-
-# To ignore .class and .pyc files
-*.class
-*.pyc
-test.txt
+*.Class
+*.Class$
